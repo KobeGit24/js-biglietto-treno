@@ -17,7 +17,7 @@ var oldSales = (price * 40 / 100).toFixed(2);
 console.log(oldSales);
 
 
-if ( age <= 18 ) {
+if ( age < 18 ) {
   price = (price - youngSales).toFixed(2);
 }
 
