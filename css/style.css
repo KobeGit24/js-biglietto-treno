@@ -6,7 +6,46 @@
 
 .booking {
   margin: 0 auto;
-  width: 70%;
-  height: 500px;
+  width: 80%;
   background: #ccc;
+  border: 2px solid #000;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 900;
+  font-family: arial;
+  text-transform: capitalize;
+}
+
+.booking .user {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking .user h3 {
+  padding: 15px;
+}
+
+.booking .user h3 i {
+  padding-left: 10px;
+  color: rgb(227, 31, 45);
+}
+
+.booking .user .user-age,
+.booking .user .user-kilometers,
+.booking .user .user-price {
+  padding: 50px;
+  width: 100%;
+}
+
+#age,
+#km,
+#your-price {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid rgb(90, 230, 219);
+  padding: 16px;
 }
